@@ -27,6 +27,6 @@ class bangunDatar{
         }
 };
 
-int main{
-    
+int main(){
+    bangunDatar pp;
 }
