@@ -33,7 +33,19 @@ class Matakuliah{
         cout << "Nama MK: " << namaMk << endl;
         cout << "SKS: " << sks << endl;
         }
-}
-int main(){
+};
 
+int main(){
+    Mahasiswa mhs;
+    Matakuliah mk;
+
+    mhs.nama = "Budi";
+    mhs.umur = 20;
+    mhs.jurusan = "Teknik Informatika";
+    mhs.output();
+
+    mk.input();
+    mk.output();
+
+    return 0;
 }
