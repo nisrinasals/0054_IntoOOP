@@ -16,6 +16,7 @@ class Mahasiswa{
 
 class Matakuliah{
     private:
+        string kodeMk;
 }
 int main(){
 
