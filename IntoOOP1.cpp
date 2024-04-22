@@ -22,11 +22,14 @@ class Matakuliah{
     public:
         void input(){
             cout << "Kode MK: ";
-            cin << kodeMk;
+            cin >> kodeMk;
             cout << "Nama MK: ";
-            cin << namaMk;
+            cin >> namaMk;
             cout << "SKS: ";
-            cin << sks;
+            cin >> sks;
+        }
+        void output(){
+            
         }
 }
 int main(){
