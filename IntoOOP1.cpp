@@ -12,7 +12,8 @@ class Mahasiswa{
         cout << "Umur: " << umur << endl;
         cout << "Jurusan: " << jurusan << endl;
     }
-}
+};
+
 int main(){
 
 }
